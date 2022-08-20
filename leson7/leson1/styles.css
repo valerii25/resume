@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+
+}
+
+.iten {
+    padding-right: 50px;
+}
+
+.iten:last-child {
+    padding-right: 0%;
+}

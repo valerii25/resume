@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg {
+    min-height: 800px;
+    background-color: #ccc;
+}
+
+
+ul {
+    font-size: 0;
+}
+
+
+span {
+    display: block;
+    margin: 20px auto;
+}
+
+
+li {
+    display: inline-block;
+    font-size: 18px;
+    border: 3px solid #fff;
+    height: 100px;
+    text-align: center;
+
+
+
+
+}
+
+.town2,
+.town3,
+.town4,
+.town5,
+.town6,
+.town7,
+.town8,
+.town10 {
+    width: 25%;
+}
+
+
+.town1 {
+
+    background-color: #3399cc;
+    width: 50%;
+}
+
+.town2 {
+
+    background-color: #33cccc
+}
+
+.town3 {
+
+    background-color: #996699
+}
+
+
+.town4 {
+
+    background-color: #c24747;
+}
+
+.town5 {
+
+    background-color: #e2674a;
+}
+
+.town5 {
+    background-color: #996699;
+}
+
+
+.town6 {
+
+    background-color: #9400D3;
+
+}
+
+
+.town7 {
+
+    background-color: #ffcc66;
+
+}
+
+.town8 {
+
+    background-color: #99cc99;
+
+}
+
+.town9 {
+
+    background-color: #669999;
+    width: 50%;
+}
+
+.town10 {
+
+    background-color: #339966;
+
+}
+
+.town11 {
+
+    background-color: #FF4500;
+    width: 100%;
+
+}
+
+
+.parent:hover>li {
+    opacity: .7;
+    transition: 1s;
+
+}
+
+.parent:hover>li:hover {
+    opacity: 1;
+}
