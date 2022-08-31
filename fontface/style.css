@@ -1,0 +1,43 @@
+.title {
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+}
+
+
+.text1 {
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+}
+
+
+.text2 {
+    font-family: 'Aboreto', cursive;
+    font-weight: 400;
+}
+
+
+.text3 {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 500;
+    ;
+}
+
+
+
+
+.text4 {
+    font-family: 'Rubik-Regular';
+}
+
+p {
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url(./Rubik-Regular.woff2);
+    format (woff2);
+    font-weight: 400;
+    font-style: normal;
+}

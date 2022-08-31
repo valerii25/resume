@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fcde7e;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100;
+    height: 100;
+}
+
+h1 {
+    color: #019a5a;
+    font-size: 54px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 37px;
+    margin: 15px auto;
+}
+
+.cup {
+    background-color: #fff;
+    width: 30%;
+    margin: 50px auto;
+    font-family: miso;
+    text-align: center;
+}
+
+.coffe2 p,
+.coffe2 h3 {
+    margin: 35px auto;
+}
+
+.coffe2 img {
+    filter: brightness(175%);
+}
+
+.coffe3 img {
+    filter: grayscale(100%) brightness(130%);
+}
